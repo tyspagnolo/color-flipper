@@ -1,0 +1,30 @@
+html {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#body {
+  text-align: center;
+  margin: 0;
+  background-color: #dbd7b6;
+}
+
+header {
+  background-color: rgb(219, 219, 219);
+  font-size: 2rem;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.middle {
+  padding-top: 32%;
+}
+
+button {
+  padding: 10px 30px;
+}
+
+.buttons {
+}

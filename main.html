@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Color Flipper Application</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <header id="header">Color Flipper</header>
+
+    <div class="middle">
+      <div class="color">
+        <h1 id="bg">Background Color: #DBD7B6</h1>
+      </div>
+
+      <div class="buttons">
+        <button onclick="getRandomColor()">Click Me!</button>
+        <button onclick="copyContent()">Copy</button>
+      </div>
+    </div>
+
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
